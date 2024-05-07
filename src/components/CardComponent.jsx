@@ -1,4 +1,5 @@
 import React from 'react'
+import SortBar from './SortBar'
 function CardComponent({bot,onHandleClick,onHandleDelete}) {
 
     
