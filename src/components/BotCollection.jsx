@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import YourBotArmy from './YourBotArmy';
+import CardComponent from '../components/CardComponent';
 
 
 function BotCollection({ data, onHandleDelete }) {
