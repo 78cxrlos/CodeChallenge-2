@@ -13,15 +13,15 @@ function BotCollection({ data, onHandleDelete }) {
   }
 
   return (
-    <div className='bg-slate-500 p-5  column-4'>
+    <div className='bg-white p-5  column-4'>
       <YourBotArmy onSet={setClickBot} onHandleDelete={handleClick} clickBot={clickBot} />
       <h2>List of Bots</h2>
       <div className='columns-4'>
         {data.map(bot => (
-          <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white mb-5 mb-0.5" key={bot.id} onClick={() => handleClick(bot)}>
+          <div className="max-w-sm rounded overflow-hidden shadow-lg bg-slate-300 mb-5 mb-0.5" key={bot.id} onClick={() => handleClick(bot)}>
             <img
               className="w-full"
-              src={bot.avatar_url}
+              src={bot.avatar_url} 
               alt={bot.name}
             />
             <div className="px-6 py-4">

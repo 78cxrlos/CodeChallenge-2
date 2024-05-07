@@ -6,9 +6,9 @@ function CardComponent({bot,onHandleClick,onHandleDelete}) {
     
   return (
   
-    <div className=' grid grid-cols-4 gap-4 bg-pink-300 mb-7'>
+    <div className=' grid grid-cols-4 gap-4 bg-lime-600  mb-7 columns-4'>
         <div onClick={ () => onHandleClick(bot)} >
-       <div className='bg-pink-400 column-4 '>
+       <div className='bg-stone-200 '>
      
           <img src={bot.avatar_url} alt='bot' />
           <div className="px-6 py-4 ">
