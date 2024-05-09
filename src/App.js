@@ -6,7 +6,7 @@ function App() {
   const [input, setInput] = useState([]);
 
   function handleDelete(bot) {
-    fetch("https://bot-server-lx36.onrender.com/bots/${bot.id}", {
+    fetch("http://localhost:3000/bots", {
       method: "DELETE",
       headers: {
         "Content-Type": "application/json"
@@ -20,7 +20,7 @@ function App() {
   }
 
   useEffect(() => {
-    fetch("https://bot-server-lx36.onrender.com/bots")
+    fetch("http://localhost:3000/bots")
       .then(res => res.json())
       .then(data => setInput(data))
       .catch(error => console.error('Error fetching data:', error));
