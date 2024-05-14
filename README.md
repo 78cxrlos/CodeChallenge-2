@@ -72,3 +72,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 # The Deployed link
 https://78cxrlos.github.io/CodeChallenge-2/
+
+# Video
+![IMG_3761](https://github.com/78cxrlos/CodeChallenge-2/assets/162049452/8677c3c4-b557-4c97-a858-9938a9e6ee80)
